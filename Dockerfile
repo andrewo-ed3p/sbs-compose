@@ -32,6 +32,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     python3-pip \
     wget \
+    docker.io \
  && pip3 install cryptography==3.3.2 \
  && pip3 install docker-compose==${DOCKERCOMPOSE_VER} \
 # Clean up unused packages and data
